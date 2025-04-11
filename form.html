@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body style="background-color: rgb(59, 65, 65);">
+    <h1>Formulario de registro</h1>
+<br>
+<form>
+    <label for="Nombre">Nombres:</label>
+    <br>
+    <input type="text" id="Nombre" name="Nombre">
+    <br>
+    <br>
+    <label for="">Apellidos:</label>
+    <br>
+    <input type="text" id="Apellido" name="Apellido">
+    <br>
+    <br>
+    <label for="edad">Edad:</label>
+    <br>
+    <input type="number" id="edad" name="edad">
+    <br>
+    <br>
+    <label for="color">Color favorito:</label>
+    <br>
+    <input type="color" id="color" name="color">
+    <br>
+    <br>
+    <label for="comida">Comida favorita:</label>
+    <br>
+    <select id="comida" name="comida"><option value="">--selecciona una--</option>
+    <option value="comidas rapidas">comidas rapidas</option>
+    <option value="comida saludable">comida saludable</option>
+    <option value="comidas caseras">comidas caseras</option>
+    <option value="otra">otra</option>
+</select>
+<br>
+En caso de seleccionar otra:
+<br>
+<input type="text" id="otra" name="otra">
+    <br>
+    <br>
+    <label>Sexo</label>
+    <br>
+    <input type="radio" id="Masculino" name="Sexo" value="Masculino">
+    <label for="Masculino">Masculino</label>
+    <br>
+    <input type="radio" id="Femenino" name="Sexo" value="Femenino">
+    <label for="Femenino">Femenino</label>
+    <br>
+    <input type="radio" id="Otro" name="Sexo" value="Otro">
+    <label for="Otro">Otro</label>
+    <br>
+    <br>
+    <label for="Contraseña">Contraseña:</label>
+    <br>
+    <input type="password" id="Contraseña" name="Contraseña">
+    <br>
+    <label for="nacimiento">Fecha de nacimiento</label>
+    <br>
+    <input type="date" id="nacimiento" name="nacimiento">
+    <br>
+    <br>
+    <button type="submit">enviar</button>
+</form>
+</body>
+</html>
